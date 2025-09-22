@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TEST</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>TEST SITE</h1>
+
+  <div class="slider">
+    <div class="slides">
+      <div class="slide">
+        <h2>⏰ Clock</h2>
+        <div id="clock"></div>
+      </div>
+      <div class="slide">
+        <h2>🔢 Counter</h2>
+        <p>Clicks: <span id="counterValue">0</span></p>
+        <button onclick="increaseCounter()">🎯</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <button onclick="prevSlide()">⬅️ Previous</button>
+    <button onclick="nextSlide()">➡️ Next</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
